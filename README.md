@@ -1,2 +1,2 @@
-# MissileBot-Reddit
-Reddit Mention Autoresponder
+# MissileBot
+### Reddit Mention Autoresponder

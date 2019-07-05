@@ -1,7 +1,7 @@
 # MissileBot
 A Reddit reply bot.
 
-When the bot account is mentioned (e.g. /u/MissileBot), the message will go into the bot's inbox as a new message. The message will be checked for keywords and matched to a response message. The bot will reply with the message, if there is a keyword match, to the submission/comment that a user had mentioned the bot on.
+When the bot account is mentioned (e.g. /u/MissileBot), the message will go into the bot's inbox as a new message. The message will be checked for keywords and matched to a response message. The bot will reply with the message, if there is a keyword match, to the submission/comment that the user had mentioned the bot on.
 
 ### Design
 | Function | Usage |

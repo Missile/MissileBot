@@ -64,9 +64,12 @@ def get_message(message, m_body):
   elif("flair" in m_body):
     message.report("Subreddit flair -MissileBot")
     return "**Official Reddit Mobile App**\n\n* On the subreddit page, select the ellipsis (...) on the top right and tap \"Change user flair\". Select the flair you want. To select an editable text flair, click the edit button on the top right. Team flairs cannot be edited.\n\nor\n\n* Tap your username on a post to open up a hover card. Tap the \"Change flair\" to change your flair on the current subreddit you're browsing. Select the flair you want. To select an editable text flair, click the edit button on the top right. Team flairs cannot be edited.\n\n&nbsp;\n\n**Desktop Site**\n\n* On the right sidebar, there is an \"Edit Flair\" button. This will bring up a menu where you can select your flair. You can only edit the text of competitive rank flairs.\n\nHere is a GIF example: https://gfycat.com/JoyfulQuarterlyGoose\n\n---\n\n**Grand Champ Flair**\n\nYou can request the Grand Champion flair only if you have made GC. Under the subreddit rules, on the sidebar or \"Community Info\" in the official Reddit mobile app, there is a link to the Request GC Flair thread. Read the thread and follow the format."
-  elif("bug" in m_body):
-    message.report("Known bug post -MissileBot")
-    return "This is a known bug and Psyonix is aware of it. It should be fixed in the next patch."
+  elif(("bug" in m_body) or ("known issues" in m_body)):
+    return "Link to Known Issues blog: https://www.rocketleague.com/news/known-issues-in-rocket-league/"
+  elif("discord" in m_body):
+    return "The official Rocket League discord server is https://discord.gg/rocketleague"
+  elif("hitbox" in m_body):
+    return "A list of battle-cars with their associated hitbox can be found at https://www.reddit.com/r/RocketLeague/wiki/battlecar-hitboxes"
 
 #############################################################################################
 
